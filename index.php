@@ -14,6 +14,7 @@ $numberrows = mysql_num_rows($sql);
 $_SESSION['login']=1;
 if ($numberrows>0) {
     //login has been succesfull so display the sweets
+    //this has been a difficult day
     $sweets = "SELECT * FROM sweets";
     $result = mysql_query($sweets);
     
