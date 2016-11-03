@@ -9,7 +9,7 @@ if (false===$conn){//forces to false or true
     die("Connection failed");
 }
     else {
-        echo 'Database connected';
+     //   echo 'Database connected';
     
 }
 ?>
